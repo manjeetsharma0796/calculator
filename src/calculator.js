@@ -1,4 +1,4 @@
-class Integer {
+class Calculator {
   constructor(number) {
     this.number = number;
   };
@@ -10,6 +10,10 @@ class Integer {
   subtract(other) {
     return this.number - other.number;
   };
+
+  multiply(other) {
+    return this.number * other.number;
+  };
 }
 
-exports.Integer = Integer;
+exports.Calculator = Calculator;
