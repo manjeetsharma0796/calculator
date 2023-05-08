@@ -6,6 +6,10 @@ class Integer {
   add(other) {
     return this.number + other.number;
   };
+
+  subtract(other) {
+    return this.number - other.number;
+  };
 }
 
 exports.Integer = Integer;
