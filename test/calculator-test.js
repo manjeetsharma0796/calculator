@@ -36,6 +36,11 @@ describe('calculator', function() {
       const number = new Calculator(4);
       strictEqual(number.isEven(), true);
     })
+
+    it('Should give false, as number is odd', function() {
+      const number = new Calculator(3);
+      strictEqual(number.isEven(), false);
+    })
   })
 })
 
