@@ -23,5 +23,12 @@ describe('calculator', function() {
       strictEqual(number.multiply(number), 16);
     })
   })
+
+  describe('divide', function() {
+    it('Should divide two numbers', function() {
+      const number = new Calculator(4);
+      strictEqual(number.divide(number), 1);
+    })
+  })
 })
 

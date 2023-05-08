@@ -14,6 +14,10 @@ class Calculator {
   multiply(other) {
     return this.number * other.number;
   };
+
+  divide(other) {
+    return this.number / other.number;
+  };
 }
 
 exports.Calculator = Calculator;
