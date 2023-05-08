@@ -30,5 +30,12 @@ describe('calculator', function() {
       strictEqual(number.divide(number), 1);
     })
   })
+
+  describe('isEven', function() {
+    it('Should give true, as number is even', function() {
+      const number = new Calculator(4);
+      strictEqual(number.isEven(), true);
+    })
+  })
 })
 
